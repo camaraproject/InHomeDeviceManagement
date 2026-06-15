@@ -16,8 +16,19 @@ Sandbox API Repository to describe, develop, document, and test the InHomeDevice
 ## Scope
 
 * Service API(s) “InHomeDeviceManagement” (see APIBacklog.md) 
-* The API(s) provide(s) the API consumer with the ability to:  
-  * §Short API scope description§ !! Add here a scope description according to the API proposal
+* The API(s) provide(s) the API consumer with the ability to:
+* A standardized API that lets ISPs expose **connected device management** capabilities to third-party app developers. It covers two areas:
+ 1. **Network Access Control** — Block, unblock, pause, unpause, or schedule internet access for any device connected to the household modem.
+ 2. **Network Health Monitoring** — Check a device's signal strength, congestion status, speed, and Wi-Fi compatibility in real time.
+
+## Who uses it?
+| Role | Description |
+|------|-------------|
+| App Service Providers (B2B2X) | Build apps that help end-customers manage their home devices |
+| Industry Consumers (B2B) | Integrate device controls into enterprise solutions |
+
+## User Story
+> *As an app developer, I want customers to view and manage devices connected to their home network, so I can deliver a seamless smart-home experience.*
 * Describe, develop, document, and test the API(s)
 * Started: January 2026
 <!-- * Incubating stage since: {{incubation date}} --> 
@@ -34,7 +45,8 @@ The repository has no (pre)releases yet, work in progress is within the main bra
 
 * Meetings are held virtually <!-- for new, independent Sandbox API repositories request a meeting link from the LF admin team or replace the information with the existing meeting information of the Sub Project -->
 
-  * Schedule: !! tbd
+  * Schedule:
+  * every odd Week Wednesday at 5pm IST (11.30am GMT)
   * [Registration / Join](https://zoom-lfx.platform.linuxfoundation.org/meetings/telcoapi) !! Update this link with your meeting registration/join link and delete the task
   * Minutes: Access [meeting minutes](https://lf-camaraproject.atlassian.net/wiki/x/EACpGw)
   * Subscribe / Unsubscribe to the mailing list <https://lists.camaraproject.org/g/sp-in-home-device-management>.
